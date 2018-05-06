@@ -1,0 +1,411 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"time",
+				"timeToGo"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"correct",
+				"correctChoice"
+			],
+			[
+				"corcc",
+				"correctChoiceIndex"
+			],
+			[
+				"data-",
+				"data-animate"
+			],
+			[
+				"movie",
+				"movie-input"
+			],
+			[
+				"mo",
+				"movie-input"
+			],
+			[
+				"movies",
+				"movies-view"
+			],
+			[
+				"temp",
+				"tempObj2"
+			],
+			[
+				"custom",
+				"customToyLineObj"
+			],
+			[
+				"toyLine",
+				"toyLineToys"
+			],
+			[
+				"arr",
+				"arrOfObj"
+			],
+			[
+				"nested",
+				"nestedObject"
+			],
+			[
+				"nest",
+				"nestedNumberArray"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"rando",
+				"randomNumber"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"color",
+				"border-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rand",
+				"rando4"
+			],
+			[
+				"arra",
+				"arrayMerge"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"user",
+				"userGuess"
+			],
+			[
+				"random",
+				"randomArtist"
+			],
+			[
+				"question",
+				"questionIndex"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"srt",
+				"stringToPrint"
+			],
+			[
+				"drive",
+				"driveAroundWorld"
+			],
+			[
+				"dri",
+				"driveAroundWorld"
+			],
+			[
+				"driveR",
+				"driveToWork"
+			],
+			[
+				"vowel",
+				"vowelChecker"
+			],
+			[
+				"stud",
+				"studentsRow1"
+			],
+			[
+				"studentRow",
+				"studentsRow2"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"bakcg",
+				"background-clip"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"borrt",
+				"border-top"
+			],
+			[
+				"bordercol",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/roberto.baldizon/Desktop/Fifa World Cup Star Players.txt",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/TriviaGame/assets/images/30515952_1525954037503271_6635445406819942400_o.png",
+		"/Users/roberto.baldizon/Downloads/untitled.html",
+		"/Users/roberto.baldizon/Desktop/Installation Training.txt",
+		"/Users/roberto.baldizon/Downloads/day-4/05-Bujumbura/Unsolved/bujumbura-easier.html",
+		"/Users/roberto.baldizon/Downloads/day-4/06-MovieJSONDump/Unsolved/movie-json-dump.html",
+		"/Users/roberto.baldizon/Downloads/day-4/07-MovieButtonLayout/Unsolved/movie-button-layout-easier.html",
+		"/Users/roberto.baldizon/Downloads/day-4/08-LogMovieName/Unsolved/log-movie-name.html",
+		"/Users/roberto.baldizon/Downloads/day-4/10-WorkingMovieApp/Unsolved/working-movie-app-easier.html",
+		"/Users/roberto.baldizon/Downloads/day-4/11-BandsInTownApp/Unsolved/bands-in-town-unsolved.html",
+		"/Users/roberto.baldizon/Downloads/week-03-JS-loops_questions.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/unit-4-game/assets/css/style.css",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/03-week/day-1/08-SimpleTimer/Unsolved/simple-timer.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/03-week/day-1/04-CoinFlip/Unsolved/coin-flip.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/03-week/day-1/04-CoinFlip/Unsolved/game.js",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-4/08-LotteryGenerator/lottery.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/unit-4-game/assets/javascript/calculatorSolved.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/unit-4-game/assets/css/reset.css",
+		"/Users/roberto.baldizon/Downloads/week-02-JS-foundation_questions.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/HW-BootstrapPortfolio/index.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-3/tfgame.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-3/33-Scope/Unsolved/scope-unsolved.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-3/29-JoanOfArcArrays/Unsolved/joan-of-arc-arrays-unsolved.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-3/30-GandalfTheGreyObjects/gandalf-the-grey-objects.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-3/31-MyFirstObject/Unsolved/car-object-unsolved.html",
+		"/Users/roberto.baldizon/Downloads/cargame.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-2/20-HardLoop/farm.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-2/21-Events/events-examples.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/02-week/day-1/17-MyFirstLoop/my-first-loop.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/creation.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/my-code/HW-BootstrapPortfolio/README.md",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Portfolio/assets/css/style.css",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Portfolio/index.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Portfolio/contact.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Portfolio/portfolio.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/01-week/activities/day-5/first.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Portfolio/assets/css/reset.css",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Wireframe/style.css",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/HW-Wireframe/index.html",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/01-week/activities/day-2/09-FloatLayout-Activity/Unsolved/floats.css",
+		"/Users/roberto.baldizon/Desktop/coding-bootcamp/01-week/activities/day-2/09-FloatLayout-Activity/Unsolved/floats.html",
+		"/Users/roberto.baldizon/Desktop/my-code/index.html",
+		"/Users/roberto.baldizon/Desktop/my-code/first-day-stuff/first-day.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
