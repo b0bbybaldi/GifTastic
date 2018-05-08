@@ -23,9 +23,9 @@ var displayPlayer = function(){
       var p = $("<p>").text("Rating: " + rating);
 
       var playerImage = $("<img>");
-      playerImage.attr("src", results[i].images.fixed_height_still.url);
-      playerImage.attr("data-still", results[i].images.fixed_height_still.url);
-      playerImage.attr("data-animate", results[i].images.fixed_height.url);
+      playerImage.attr("src", results[i].images.fixed_width_still.url);
+      playerImage.attr("data-still", results[i].images.fixed_width_still.url);
+      playerImage.attr("data-animate", results[i].images.original.url);
       playerImage.attr("data-state", "still");
       playerImage.attr("class", "gif");
 
@@ -102,9 +102,6 @@ var pauseImages = function(){
 $(document).on("click", ".player", displayPlayer);
 
 $(document).on("click", ".gif", pauseImages);
-
-var audio = new Audio('assets/images/01 Bum Bum Tam Tam.m4p');
-audio.play();
 
 renderButtons();
 

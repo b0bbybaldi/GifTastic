@@ -16,6 +16,7 @@ body{
 #buttons{
 	width: 75%;
 	color: white;
+	font-family: 'Righteous', cursive;
 }
 
 .display-4 {
@@ -31,4 +32,23 @@ body{
 #player-form{
 	margin-left: 950px;
 	margin-top: 20px;
+}
+
+.player{
+	font-family: 'Righteous', cursive;
+}
+
+#buttons-view{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#add-player{
+	font-family: 'Righteous', cursive;
+}
+
+iframe{
+	position: absolute;
+	margin-top: 850px;
+	margin-left: 550px; 
 }
