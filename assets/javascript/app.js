@@ -16,20 +16,26 @@ var displayPlayer = function(){
     var results = response.data;
 
     for (var i = 0; i < results.length; i++) {
-      var gifDiv = $("<div class='gif'>");
+      var gifDiv = $("<div class='images'>");
 
       var rating = results[i].rating;
 
       var p = $("<p>").text("Rating: " + rating);
 
       var playerImage = $("<img>");
-      playerImage.attr("src", results[i].images.fixed_height.url);
+      playerImage.attr("src", results[i].images.fixed_height_still.url);
+      playerImage.attr("data-still", results[i].images.fixed_height_still.url);
+      playerImage.attr("data-animate", results[i].images.fixed_height.url);
+      playerImage.attr("data-state", "still");
+      playerImage.attr("class", "gif");
 
       gifDiv.prepend(p);
       gifDiv.prepend(playerImage);
 
       $("#gifs-appear-here").append(gifDiv);
     }
+
+
   });
 
   //Function that listens to click and changes URL from fixed_height to fixed_height_url and viceversa needed
@@ -37,7 +43,6 @@ var displayPlayer = function(){
   //On Click
     //if gif active then pause
     //if paused activate
-
 }
 
 var renderButtons = function(){
@@ -68,7 +73,31 @@ $("#add-player").click(function(event) {
   renderButtons();
 });
 
+var pauseImages = function(){
+  $(".gif").click(function() {
+    event.preventDefault();
+
+
+    var state = $(this).attr("data-state");
+
+    console.log(state);
+
+    if(state === 'still'){
+      $(this).attr('src', $(this).attr('data-animate'));
+      $(this).attr('data-state', 'animate');
+    }else if(state === 'animate'){
+      $(this).attr('src', $(this).attr('data-still'));
+      $(this).attr('data-state', 'still');
+    }
+
+  });
+}
+
 
 $(document).on("click", ".player", displayPlayer);
 
+$(document).on("click", ".gif", pauseImages);
+
 renderButtons();
+
+pauseImages();
