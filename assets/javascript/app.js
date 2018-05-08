@@ -15,7 +15,7 @@ var displayPlayer = function(){
 
     var results = response.data;
 
-    for (var i = 0; i < results.length; i++) {
+    for (var i = 0; i < results.length ; i++) {
       var gifDiv = $("<div class='images'>");
 
       var rating = results[i].rating;
@@ -33,8 +33,11 @@ var displayPlayer = function(){
       gifDiv.prepend(playerImage);
 
       $("#gifs-appear-here").append(gifDiv);
+
+      // pauseImages();
     }
 
+    // pauseImages();
 
   });
 
@@ -71,12 +74,13 @@ $("#add-player").click(function(event) {
   players.push(player);
 
   renderButtons();
+
+  // pauseImages();
 });
 
 var pauseImages = function(){
   $(".gif").click(function() {
     event.preventDefault();
-
 
     var state = $(this).attr("data-state");
 
@@ -90,6 +94,7 @@ var pauseImages = function(){
       $(this).attr('data-state', 'still');
     }
 
+    pauseImages();
   });
 }
 
@@ -97,6 +102,9 @@ var pauseImages = function(){
 $(document).on("click", ".player", displayPlayer);
 
 $(document).on("click", ".gif", pauseImages);
+
+var audio = new Audio('assets/images/01 Bum Bum Tam Tam.m4p');
+audio.play();
 
 renderButtons();
 
